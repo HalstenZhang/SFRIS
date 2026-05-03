@@ -1,0 +1,23 @@
+# CH4O - Methanol (defaults)
+# Expected isomers: methanol
+# Profile: standard search with DFT refinement
+0 1
+C     0.000000    0.000000   -0.522900
+O     0.000000    0.000000    0.920500
+H     1.028800    0.000000   -0.918100
+H    -0.514400   -0.891100   -0.918100
+H    -0.514400    0.891100   -0.918100
+H     0.000000    0.809500    1.267500
+Parameters
+[CUT]
+CutControl = 3, 0.4
+[SEARCH]
+ConvergenceRounds = 30, auto, auto
+[CLUSTER]
+MirrorCheck = true
+[FILTER]
+AdvOptFilter = 50
+ScanLimit = 150
+[ADVOPT]
+[NMA]
+[]

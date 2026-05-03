@@ -1,0 +1,15 @@
+# C2H6O - Ethanol (standard)
+# Expected isomers: ethanol, dimethyl ether
+# Profile: all default settings, no customization needed
+0 1
+C    -0.047600    0.579400    0.000000
+C     1.421400    0.207200    0.000000
+O    -0.780200   -0.627500    0.000000
+H    -0.337300    1.174200    0.876200
+H    -0.337300    1.174200   -0.876200
+H     1.711700   -0.387600    0.876200
+H     1.711700   -0.387600   -0.876200
+H     1.969800    1.152600    0.000000
+H    -1.724200   -0.407400    0.000000
+Parameters
+[]

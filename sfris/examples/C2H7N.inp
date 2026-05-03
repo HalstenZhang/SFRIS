@@ -1,0 +1,31 @@
+# C2H7N - Ethylamine (thorough)
+# Expected isomers: ethylamine, dimethylamine
+# Profile: thorough search with extended convergence
+0 1
+C    -0.047600    0.579400    0.000000
+C     1.421400    0.207200    0.000000
+N    -0.716300   -0.720400    0.000000
+H    -0.337300    1.174200    0.876200
+H    -0.337300    1.174200   -0.876200
+H     1.711700   -0.387600    0.876200
+H     1.711700   -0.387600   -0.876200
+H     1.969800    1.152600    0.000000
+H    -1.713700   -0.545800    0.000000
+H    -0.361600   -1.262400    0.790300
+Parameters
+[CUT]
+CutControl = 3, 0.3
+CutFunctionalGroup = true
+[SEARCH]
+ConvergenceRounds = 40, auto, auto
+PlacementsPerCut = 50
+[CLUSTER]
+ClusterRMSD = 0.4
+MirrorCheck = true
+[FILTER]
+AdvOptFilter = 50
+ScanLimit = 200
+[ADVOPT]
+[NMA]
+[DEBUG]
+[]

@@ -1,0 +1,21 @@
+# C2H4O - Acetaldehyde (quick test)
+# Expected isomers: acetaldehyde, ethylene oxide, vinyl alcohol
+# Profile: fast scan with minimal settings
+0 1
+C    -0.014800    0.394200    0.000000
+C     1.494600    0.235400    0.000000
+O    -0.618200   -0.650600    0.000000
+H    -0.513200    1.378200    0.000000
+H     1.856900   -0.287700    0.884400
+H     1.856900   -0.287700   -0.884400
+H     1.859500    1.267800    0.000000
+Parameters
+[CUT]
+CutControl = 2, 0.4
+[SEARCH]
+ConvergenceRounds = 20, auto, auto
+[CLUSTER]
+MirrorCheck = true
+[FILTER]
+ScanLimit = 100
+[]

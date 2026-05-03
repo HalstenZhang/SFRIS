@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use SFRIS in your research, please cite the following paper."
+title: "SFRIS: Systematic Fragmentation-Recombination Isomer Search"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Dapeng
+    orcid: "https://orcid.org/0000-0002-2879-5613"
+version: "1.0.1"
+date-released: "2026-04-13"
+license: MIT
+url: "https://halsten.pcmq.net/sfris"
+repository-code: "https://halsten.pcmq.net/sfris"
+# preferred-citation:
+#   type: article
+#   authors:
+#     - family-names: Zhang
+#       given-names: Dapeng
+#       orcid: "https://orcid.org/0000-0002-2879-5613"
+#   title: "SFRIS: Systematic Fragmentation and Recombination for Automated Constitutional Isomer Generation"
+#   journal: "xxxxx"
+#   year: 2026
+#   doi: "10.xxxx/xxxxx"

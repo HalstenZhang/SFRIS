@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sfris"
+version = "1.0.1"
+description = "Systematic Fragmentation-Recombination Isomer Search: automated constitutional isomer generation"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Dapeng Zhang", email = "halsten@pcmq.net" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.9",
+    "networkx>=2.8",
+    "setproctitle>=1.3",
+]
+
+[project.urls]
+Homepage = "https://halsten.pcmq.net/sfris"
+
+[project.scripts]
+sfris = "sfris.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+sfris = ["examples/*.inp"]
