@@ -67,7 +67,19 @@ def main():
         print("  sfris config init           # Create default config file")
         print("  sfris example               # List example molecules")
         print("  sfris example <name>        # Copy example to current directory")
+        print("  sfris lib                   # Starting structure library")
+        print("  sfris --version             # Show version")
         sys.exit(1)
+
+    if sys.argv[1] in ("--version", "-V", "version"):
+        from sfris import __version__
+        print("sfris %s" % __version__)
+        return
+
+    if sys.argv[1] == "lib":
+        from sfris import lib
+        lib.handle_lib(sys.argv[2:])
+        return
 
     if sys.argv[1] == "config":
         print(SFRIS_BANNER)

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sfris"
-version = "1.0.2"
+version = "1.0.3"
 description = "Systematic Fragmentation-Recombination Isomer Search: automated constitutional isomer generation"
 readme = "README.md"
 license = "MIT"
@@ -41,4 +41,4 @@ sfris = "sfris.cli:main"
 where = ["."]
 
 [tool.setuptools.package-data]
-sfris = ["examples/*.inp"]
+sfris = ["examples/*.inp", "data/*.gz"]
