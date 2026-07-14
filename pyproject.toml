@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sfris"
-version = "1.0.1"
+version = "1.0.2"
 description = "Systematic Fragmentation-Recombination Isomer Search: automated constitutional isomer generation"
 readme = "README.md"
 license = "MIT"
