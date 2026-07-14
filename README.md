@@ -1,3 +1,8 @@
+> **Note:** The version described in the manuscript is **v1.0.1**
+> ([release](https://github.com/HalstenZhang/SFRIS/releases/tag/v1.0.1)).
+> Later versions add bug fixes and features that do not change the results
+> reported in the paper. See [CHANGELOG.md](CHANGELOG.md).
+
 # SFRIS
 
 **Systematic Fragmentation-Recombination Isomer Search**
