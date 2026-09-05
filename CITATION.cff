@@ -20,7 +20,7 @@ keywords:
   - computational chemistry
   - fragmentation and recombination
 license: MIT
-version: 1.0.3
+version: 1.0.4
 doi: 10.5281/zenodo.20007904
 preferred-citation:
   type: article
