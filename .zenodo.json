@@ -1,0 +1,26 @@
+{
+  "title": "SFRIS: Systematic Fragmentation-Recombination Isomer Search",
+  "description": "Systematic constitutional isomer enumeration by fragmentation and recombination.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Zhang, Dapeng",
+      "orcid": "0000-0002-2879-5613"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.26434/chemrxiv.15007216/v1",
+      "relation": "isDocumentedBy",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "keywords": [
+    "constitutional isomers",
+    "chemical space enumeration",
+    "computational chemistry",
+    "molecular structure generation"
+  ]
+}
