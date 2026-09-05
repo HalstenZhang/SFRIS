@@ -44,7 +44,8 @@ SFRIS_BANNER = r"""
     Released under the MIT License.
 
     If you use SFRIS in your research, please cite:
-      D. Zhang, manuscript in preparation.
+      D. Zhang, ChemRxiv 2026,
+      doi:10.26434/chemrxiv.15007216/v1
 ============================================================
 """.format(version=SFRIS_VERSION)
 

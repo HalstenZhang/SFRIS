@@ -1,7 +1,7 @@
-> **Note:** The version described in the manuscript is **v1.0.1**
+> **Note:** The version described in the [preprint](https://doi.org/10.26434/chemrxiv.15007216/v1) is **v1.0.1**
 > ([release](https://github.com/HalstenZhang/SFRIS/releases/tag/v1.0.1)).
 > Later versions add bug fixes and features that do not change the results
-> reported in the paper. See [CHANGELOG.md](CHANGELOG.md).
+> reported in the preprint. See [CHANGELOG.md](CHANGELOG.md).
 
 # SFRIS
 
@@ -145,8 +145,24 @@ C, H, N, O, S, P, F, Cl, Br
 
 ## Citation
 
-If you use SFRIS in your research, please cite:
+If you use SFRIS in your research, please cite the preprint:
 
-> Zhang, D. (2026). SFRIS: Systematic Fragmentation and Recombination for Automated Constitutional Isomer Generation. doi: forthcoming
+> Zhang, D. SFRIS: A Systematic Fragmentation-Recombination Approach for
+> Isomer Search. *ChemRxiv* **2026**. doi:10.26434/chemrxiv.15007216/v1
 
-See also `CITATION.cff` for machine-readable citation metadata.
+```bibtex
+@misc{Zhang2026SFRIS,
+  author       = {Zhang, Dapeng},
+  title        = {{SFRIS}: A Systematic Fragmentation-Recombination Approach for Isomer Search},
+  year         = {2026},
+  howpublished = {ChemRxiv preprint},
+  doi          = {10.26434/chemrxiv.15007216/v1},
+  url          = {https://doi.org/10.26434/chemrxiv.15007216/v1}
+}
+```
+
+To cite a specific release of the software itself, use the Zenodo archive:
+<https://doi.org/10.5281/zenodo.20007904>
+
+`CITATION.cff` in the repository root carries the same information in
+machine-readable form; GitHub's "Cite this repository" button reads it.

@@ -28,7 +28,16 @@ import re
 _DATA_FILE = os.path.join(os.path.dirname(__file__), 'data', 'startlib.json.gz')
 _LIB = None
 
-BIBTEX = """@article{Ramakrishnan2014,
+BIBTEX = """@misc{Zhang2026SFRIS,
+  author       = {Zhang, Dapeng},
+  title        = {{SFRIS}: A Systematic Fragmentation-Recombination Approach for Isomer Search},
+  year         = {2026},
+  howpublished = {ChemRxiv preprint},
+  doi          = {10.26434/chemrxiv.15007216/v1},
+  url          = {https://doi.org/10.26434/chemrxiv.15007216/v1}
+}
+
+@article{Ramakrishnan2014,
   author  = {Ramakrishnan, R. and Dral, P. O. and Rupp, M. and von Lilienfeld, O. A.},
   title   = {Quantum chemistry structures and properties of 134 kilo molecules},
   journal = {Scientific Data},
